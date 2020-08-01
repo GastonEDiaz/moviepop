@@ -1,0 +1,7 @@
+.App {
+  background: linear-gradient(-15deg, rgba(6, 25, 48) 10%, rgba(34, 60, 83) 100%);
+  background-size:auto;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
