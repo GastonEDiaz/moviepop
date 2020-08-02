@@ -1,7 +1,8 @@
 .NavBar{
     display: flex;
     flex-direction: row-reverse;
-    margin: 1em;
+    padding: 0em 0 0 1em;
+    height: 10%;
 }
 
 button{
