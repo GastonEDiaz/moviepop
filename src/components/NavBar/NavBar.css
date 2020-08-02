@@ -1,0 +1,16 @@
+.NavBar{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 1em;
+}
+
+button{
+    background-color: transparent;
+    border-color: transparent;
+    color: #FFFFFF;
+    outline:none;
+}
+
+.active{
+    color: #b98f14;
+}
