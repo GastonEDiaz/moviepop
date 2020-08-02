@@ -1,10 +1,13 @@
 import React from 'react';
+import principal from "../statics/principal.png";
+import "./Home.css"
 
 const Home = () => {
     return(
-        <>
-        Estoy en el Home
-        </>
+        <div className="Home" >
+        <img alt="MoviePop!" src={principal} />
+        <h1>MoviePop!</h1>
+        </div>
     );
 }
 
