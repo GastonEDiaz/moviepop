@@ -62,8 +62,6 @@ const fiveStar = () => {
 
 const StarsCounter = (props) => {
     const {rating} = props;
-    console.log("StarsCounter -> rating", rating)
-    console.log("StarsCounter -> Math.round(rating)", parseInt(rating))
     const valueRating = parseInt(rating);
     switch (valueRating / 2) {
         case 1:
