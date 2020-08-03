@@ -1,7 +1,7 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import Home from "./Home";
-import Catalog from "./Catalog";
+import Home from "./Home/Home";
+import Catalog from "./Catalog/Catalog";
 
 const Body = () => {
   return (
