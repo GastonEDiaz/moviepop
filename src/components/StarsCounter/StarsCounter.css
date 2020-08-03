@@ -1,0 +1,8 @@
+.StarsCounter{
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    color: #b98f14;
+}
