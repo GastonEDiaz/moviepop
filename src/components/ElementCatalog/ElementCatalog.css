@@ -1,0 +1,15 @@
+.ElementCatalog {
+    color: #FFFFFF;
+    text-align: end;
+    padding: .2em
+}
+
+img {
+    height: 80%;
+    width: 100%;
+    object-fit: cover
+}
+
+h4 {
+    height: 20%;
+}

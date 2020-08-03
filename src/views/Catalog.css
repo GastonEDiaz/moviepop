@@ -1,0 +1,9 @@
+.Catalog{
+    height: 90%;
+    width: 90%;
+    overflow: auto;
+}
+
+h2 {
+    color: #FFFFFF;
+}
