@@ -9,7 +9,7 @@ const Element = (element) => {
     return (
         <div className="Element" >
             <div className="CoverContainer" >
-                <img alt="coverimage" src={movie.show && movie.show.image && movie.show.image.original ? movie.show.image.original : movieCover}  />
+                <img alt="coverimage" src={movie.show && movie.show.image && movie.show.image.original ? movie.show.image.original : movieCover} className="pure-img" />
                 <StarsCounter rating={movie.show.rating.average} />
             </div>
             <h2>{movie.show.name}</h2>
