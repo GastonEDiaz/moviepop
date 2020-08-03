@@ -75,7 +75,15 @@ const StarsCounter = (props) => {
         case 5:
             return fiveStar();
         default:
-            return (<></>)
+            return (
+                <div className="StarsCounter" >
+                    <span className="fa fa-star-o"></span>
+                    <span className="fa fa-star-o"></span>
+                    <span className="fa fa-star-o"></span>
+                    <span className="fa fa-star-o"></span>
+                    <span className="fa fa-star-o"></span>
+                </div>
+            );
     }    
 }
 
