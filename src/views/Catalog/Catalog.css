@@ -1,9 +1,18 @@
 .Catalog{
     height: 100%;
+    width: 100%;
     padding: 0 1em 0 1em;
     overflow: auto;
+    color: #FFFFFF;
 }
 
-h2, h3 {
-    color: #FFFFFF;
+.Catalog hr {
+    background-color: #415870;
+    margin-top: 0;
+}
+
+.Catalog label{
+    padding-left: 0.5em;
+    font-size: 1.2em;
+    font-weight: 600;
 }
