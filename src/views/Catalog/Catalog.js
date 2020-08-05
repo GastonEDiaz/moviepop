@@ -12,7 +12,7 @@ const Catalog = () => {
       {
         !movie &&
         <>
-          <h2>Películas</h2>
+          <label>Películas</label>
           <hr />
           <MoviesList />
         </>
