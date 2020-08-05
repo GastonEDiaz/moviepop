@@ -3,12 +3,8 @@
     padding: .2em
 }
 
-.ElementCatalog img {
-    height: 210px;
-    width: 100%;
+.ElementCatalog figcaption{
+    color: #FFFFFF;
+    font-weight: 700;
 }
 
-.ElementCatalog h4 {
-    height: 20%;
-    text-align: end;
-}

@@ -13,12 +13,14 @@ const MoviesList = () => {
         getMovies();
      }, [])
     return(
-        <div>
-            {
-                movies && movies.map( (movie, index) => {
-                    return <ElementCatalog movie={movie} key={index} />
-                })
-            }
+        <div className="container" >
+            <div className="row no-gutters row-cols-3 row-cols-sm-3 row-cols-md-3 " >
+                {
+                    movies && movies.map( (movie, index) => {
+                        return <ElementCatalog movie={movie} key={index} />
+                    })
+                }
+            </div>
         </div>
     );
 }
