@@ -1,5 +1,7 @@
 # MoviePop!
-![MoviePop Main Icon](https://github.com/GastonEDiaz/moviepop/blob/master/src/statics/principal.png)
+<p align="center">
+  <img  width="300" height="300" src="https://github.com/GastonEDiaz/moviepop/blob/master/src/statics/principal.png" />
+</p>
 
 Simple movie caltalog crated in ReactJS
 
