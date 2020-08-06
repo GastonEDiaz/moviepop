@@ -7,6 +7,7 @@ import StarsCounter from '../../components/StarsCounter/StarsCounter';
 const Element = () => {
     const movie = useSelector(state => state.elementReducer.movie )
     return (
+    <div className="ElementContainer" >
         <div className="Element" >
             <div className="CoverContainer" >
                 <img alt="coverimage" src={movie && movie.show && movie.show.image && movie.show.image.original ? movie.show.image.original : movieCover} className="img-fluid" />
@@ -30,6 +31,7 @@ const Element = () => {
             <label>Sinopsis</label>
             <div dangerouslySetInnerHTML={{__html: movie && movie.show && movie.show.summary}} />
         </div>
+    </div>    
     );
 }
 
